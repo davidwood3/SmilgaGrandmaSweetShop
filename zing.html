@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html class="zg-html">
+
+<head>
+  <meta charset="utf-8">
+  <title>ZingGrid: Build a CRUD Grid in 60 Seconds</title>
+  <script src="https://cdn.zinggrid.com/dev/zinggrid-dev.min.js" defer></script>
+  <style>
+    zg-column:nth-child(1),
+    zg-row zg-cell:nth-child(1),
+    zg-row zg-head-cell:nth-child(1) {
+      display: none;
+    }
+
+    zing-grid[loading] {
+      height: 392px;
+    }
+  </style>
+</head>
+
+<body class="zg-body">
+  <zing-grid src="https://jammin-salmon.glitch.me/api/movies/" editor editor-controls></zing-grid>
+  <script></script>
+</body>
+
+</html>
